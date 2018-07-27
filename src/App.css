@@ -1,0 +1,45 @@
+h1 {
+  font-size: 4rem;
+}
+
+.App {
+  display: flex;
+  /* flex-direction: column; */
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+
+.App .player-card {
+  width: 97%;
+  /* height: 13vh; */
+  background-color: gray;
+  color: black;
+  /* margin: 1rem; */
+  border: 2px solid black;
+  /* padding: 0.6rem; */
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex-cat {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 130px;
+  align-items: center;
+  padding: none;
+  width: 10% !important;
+}
+
+div h2 {
+  color: black;
+  font-size: 2rem;
+}
+
+p {
+  font-size: 2rem;
+  text-decoration: underline;
+  color: lightgreen;
+}
